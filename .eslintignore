@@ -5,5 +5,5 @@ dist
 .next
 .idea
 tailwind.config.ts
-postcss.config.js
-next.config.js
+postcss.config.mjs
+next.config.mjs
