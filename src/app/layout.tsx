@@ -8,7 +8,10 @@ import AppProvider from 'src/components/providers/AppProvider';
 export const metadata: Metadata = {
   title: 'Social Network Downloader',
   description: 'Download media from social networks',
-  icons: '/app-logo.png'
+  icons: '/app-logo.png',
+  verification: {
+    google: '1-e4xuHFiE9l6RtL2wa6rxe3dRuKlwXhFzEUROIVcCg'
+  }
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
