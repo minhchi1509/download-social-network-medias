@@ -20,6 +20,7 @@ import FacebookDownloader from 'src/components/ui/features/media-downloader/Face
 import InstagramDownloader from 'src/components/ui/features/media-downloader/InstagramDownloader';
 import TiktokDownloader from 'src/components/ui/features/media-downloader/TiktokDownloader';
 import YoutubeDownloader from 'src/components/ui/features/media-downloader/YoutubeDownloader';
+import ContactMe from 'src/components/ui/shared/ContactMe';
 
 const tabsConfig = [
   {
@@ -81,6 +82,7 @@ export default function Home() {
           ))}
         </TabPanels>
       </Tabs>
+      <ContactMe />
     </Box>
   );
 }
